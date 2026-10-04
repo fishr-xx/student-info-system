@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "name": "Kat",
+            "id": 320,
+            "course": "Information Technology",
+            "campus": "Reach",
+            "scholar": true
+        },
+        {
+            "name": "Jun",
+            "id": 266,
+            "course": "Criminology",
+            "campus": "Urdaneta",
+            "scholar": true
+        },
+        {
+            "name": "Carter",
+            "id": 259,
+            "course": "Criminology",
+            "campus": "Reach",
+            "scholar": true
+        }
+    ]
+}
