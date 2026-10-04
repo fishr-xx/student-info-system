@@ -20,6 +20,13 @@
             "course": "Criminology",
             "campus": "Reach",
             "scholar": true
+        },
+        {
+            "name": "Noble Six",
+            "id": 312,
+            "course": "Criminology",
+            "campus": "Reach",
+            "scholar": true
         }
     ]
 }

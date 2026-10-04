@@ -1,9 +1,11 @@
 from src.models.student import Student
 from src.services.student_service import StudentService
 from src.utils.logger import setup_logging
+from src.utils.config import load_config
 
-setup_logging()
-service = StudentService("data/students.json")
+config = load_config()
+setup_logging(config["log_file"])
+service = StudentService(config["data_file"])
 
 
 def ask_for_id(prompt):
